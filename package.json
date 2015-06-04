@@ -1,0 +1,29 @@
+{
+  "name": "amqpbus",
+  "version": "0.1.0",
+  "description": "A simpler way to interact with an AMQP server from a nodejs application",
+  "main": "index.js",
+  "homepage": "https://github.com/Around25/amqpbus",
+  "bugs": {
+    "url": "https://github.com/Around25/amqpbus/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Around25/amqpbus"
+  },
+  "keywords": [
+    "AMQP",
+    "event emitter",
+    "rabbitmq"
+  ],
+  "author": {
+    "name": "Cosmin Harangus",
+    "email": "cosmin@around25.com",
+    "url": "http://cosmin.harangus.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-uuid": "^1.4.3",
+    "amqplib": "^0.3.2",
+  }
+}
