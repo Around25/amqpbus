@@ -1,6 +1,6 @@
 {
   "name": "amqpbus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simpler way to interact with an AMQP server from a nodejs application",
   "main": "index.js",
   "homepage": "https://github.com/Around25/amqpbus",
