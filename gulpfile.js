@@ -10,7 +10,7 @@ gulp.task('test', function (cb) {
       gulp.src(['spec/**/*Spec.js'])
         .pipe(jasmine())
         .pipe(istanbul.writeReports()) // Creating the reports after tests ran
-        .pipe(istanbul.enforceThresholds({ thresholds: { global: 50 } })) // Enforce a coverage of at least 90%
+        .pipe(istanbul.enforceThresholds({ thresholds: { global: 90 } })) // Enforce a coverage of at least 90%
         .on('error', function (err) {
           console.log(err.message);
           process.exit(1);
