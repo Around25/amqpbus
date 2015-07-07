@@ -3,6 +3,8 @@ amqpbus
 
 A simpler way to interact with an AMQP server from a nodejs application
 
+[![Build Status](https://travis-ci.org/Around25/amqpbus.svg)](http://travis-ci.org/Around25/amqpbus)
+
 Install
 -------
 ```
