@@ -7,6 +7,9 @@
   "bugs": {
     "url": "https://github.com/Around25/amqpbus/issues"
   },
+  "scripts": {
+    "test": "gulp test"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Around25/amqpbus"
