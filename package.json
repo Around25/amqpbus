@@ -7,6 +7,9 @@
   "bugs": {
     "url": "https://github.com/Around25/amqpbus/issues"
   },
+  "scripts": {
+    "test": "gulp test"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Around25/amqpbus"
@@ -23,7 +26,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "node-uuid": "^1.4.3",
-    "amqplib": "^0.3.2"
+    "amqplib": "0.3.2",
+    "node-uuid": "1.4.3",
+    "when": "^3.7.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-jasmine": "^2.0.1",
+    "jasmine": "^2.3.1"
   }
 }

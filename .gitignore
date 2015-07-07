@@ -1,4 +1,8 @@
 *~
 .DS_Store
 .idea
-node_modules
+node_modules/
+docker/
+docker-compose.yml
+Dockerfile
+coverage/
